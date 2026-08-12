@@ -13,6 +13,6 @@ class Solution:
             l+=1
             r+=1
             sum+=arr[r]
-            if sum/k>=threshold:
+            if sum/k*k>=threshold*k:
                 cnt+=1    
         return cnt        
