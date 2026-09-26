@@ -14,4 +14,7 @@ class Solution:
                     return False
                 if ch=="}"and top!='{':
                     return False
-        return len(stack)==0                           
+        if len(stack)==0 :
+            return True
+        else:
+            return False                             
